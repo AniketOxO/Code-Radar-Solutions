@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define PI 3.14159
+#define PI 3.14
 int main()
 {
     double radius,area;
