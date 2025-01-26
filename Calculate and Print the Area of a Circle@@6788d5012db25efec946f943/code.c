@@ -7,7 +7,5 @@ int main()
 
     area=PI*radius*radius;
     printf("%.2lf\n",area);
-
-
     return 0;
 }
