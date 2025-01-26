@@ -6,6 +6,6 @@ int main()
     scanf("%lf",&radius);
 
     area=PI*radius*radius;
-    printf("%.2lf\n",area);
+    printf("%Area: .2lf\n",area);
     return 0;
 }
