@@ -10,11 +10,11 @@ int main()
        }
     else if(ch >='A' && ch<='Z')||(ch >="a" && ch<="z")
     {
-        printf("Consonant")
+        printf("Consonant");
     }
     else
     {
-        printf("Digit")
+        printf("Digit");
     }
 
 
