@@ -2,7 +2,7 @@
 int main()
 {
     int citizen;
-    scanf("%d",&num);
+    scanf("%d",&citizen);
     if(citizen>=60)
     {
         printf("Eligible");
