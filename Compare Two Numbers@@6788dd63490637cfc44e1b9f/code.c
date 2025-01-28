@@ -15,9 +15,5 @@ int main()
     {
         printf("Equal");
     }
-    else
-    {
-        printf("Unequal");
-    }
     return 0;
 }
