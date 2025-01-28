@@ -3,13 +3,17 @@ int main
 {
     float costprice,sellingprice;
     scanf("%f %f",&costprice,&sellingprice);
-    if(costprice>sellingprice)
+    if(costprice<sellingprice)
+    {
+        printf("Profit");
+    }
+    else if(costprice>sellingprice)
     {
         printf("Loss");
     }
     else
     {
-        printf("Profit");
+        printf("No Profit No Loss");
     }
     return 0;
 }
