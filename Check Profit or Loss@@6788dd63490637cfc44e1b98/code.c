@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main
+int main()
 {
     float costprice,sellingprice;
     scanf("%f %f",&costprice,&sellingprice);
