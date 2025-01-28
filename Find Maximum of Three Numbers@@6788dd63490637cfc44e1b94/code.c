@@ -14,4 +14,5 @@ int main()
     {
         max num3;
     }
+    return 0;
 }
