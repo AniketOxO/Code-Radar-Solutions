@@ -3,12 +3,13 @@ int main()
 {
     int a;
     scanf("%d",&a);
-    if(int i=31;i>=0;i--)
+    for(int i=31;i>=0;i--)
     {
-        printf("%d",(a &(1<<i)));
+        if(a &(1<<i));
         break;
-        count++
+        count++;
         
     }
+    printf("%d",count);
     return 0;
 }
