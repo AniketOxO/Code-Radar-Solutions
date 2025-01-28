@@ -11,9 +11,13 @@ int main()
     {
         printf("First");
     }
-    else if(a==b)
+    else if(b>a)
     {
         printf("Second");
+    }
+    else
+    {
+        printf("Unequal");
     }
     
     return 0;
