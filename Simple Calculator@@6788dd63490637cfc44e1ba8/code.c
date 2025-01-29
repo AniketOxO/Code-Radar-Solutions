@@ -23,7 +23,7 @@ int main(){
             printf("Error");
         }
         break;
-        default:
+    default:
         printf("Wrong Input");
     }
     return 0;
