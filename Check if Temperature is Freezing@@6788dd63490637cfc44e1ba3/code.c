@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main()
-(
+{
     int temperature;
     scanf("%d",&temperature);
     if(temperature<=0)
@@ -13,4 +13,4 @@ int main()
         printf("Above Freezing");
     }
     return 0;
-)
+}
