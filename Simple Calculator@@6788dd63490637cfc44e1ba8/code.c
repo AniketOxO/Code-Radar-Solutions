@@ -16,15 +16,15 @@ int main(){
         case '/':
         if(num2!=0)
         {
-            printf("%d",num1/num2);
+            printf("%d/n",num1/num2);
         }
         else
         {
-            printf("Error");
+            printf("Cant");
         }
         break;
         default:
-        printf("Wrong Input");
+        printf("Error");
     }
     return 0;
 }
