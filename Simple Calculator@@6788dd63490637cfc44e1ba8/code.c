@@ -27,5 +27,5 @@ int main()
     default:
         printf("Error");
     }
-    return 0;
+return 0;
 }
