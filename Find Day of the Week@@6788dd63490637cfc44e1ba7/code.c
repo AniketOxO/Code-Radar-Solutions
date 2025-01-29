@@ -27,9 +27,13 @@ int main()
     {
         printf("Saturday");
     }
-    else
+    else if(num==7)
     {
         printf("Sunday");
+    }
+    else
+    {
+        printf("Invalid");
     }
     return 0;
 }
