@@ -20,11 +20,11 @@ int main(){
         }
         else
         {
-            printf("Cant");
+            printf("Error");
         }
         break;
         default:
-        printf("Error");
+        printf("Wrong Input");
     }
     return 0;
 }
