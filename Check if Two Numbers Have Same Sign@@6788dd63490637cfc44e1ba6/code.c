@@ -9,6 +9,7 @@ int main()
     }
     else
     {
-        printf("Different Sign")
+        printf("Different Sign");
     }
+    return 0;
 }
