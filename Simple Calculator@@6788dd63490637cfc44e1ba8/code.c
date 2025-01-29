@@ -21,7 +21,7 @@ int main()
         }
         else
         {
-            printf("Not valid")
+            printf("Not valid");
         }
         break;
         default:
