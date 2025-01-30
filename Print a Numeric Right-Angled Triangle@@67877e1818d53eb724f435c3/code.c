@@ -7,7 +7,7 @@ int main()
     {
         for(int j=0;j<=n;j++)
         {
-            printf("%d",j);
+            printf("%d ",j);
         }
         printf("\n");
     }
