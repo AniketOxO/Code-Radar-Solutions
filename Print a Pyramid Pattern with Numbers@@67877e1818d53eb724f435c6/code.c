@@ -9,9 +9,13 @@ int main()
         {
             printf(" ");
         }
-        for(int k=1; k<=(2*i-1);k++)
+        for(int j=1; j<=i;j++)
         {
             printf("%d ",j);
+        }
+        for(int j=i-1;j>=1;j--)
+        {
+            printf("%d",j);
         }
         printf("\n");
     }
