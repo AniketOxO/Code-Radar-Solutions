@@ -18,3 +18,11 @@ void selectionSort(int arr[], int n) {
         arr[min_index] = temp;
     }
 }
+
+// Function to print the sorted array
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
+        printf("%d ", arr[i]);
+    }
+    printf("\n");
+}
