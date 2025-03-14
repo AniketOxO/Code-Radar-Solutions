@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 // Function to find the length of the smallest subarray to be sorted
-int findUnsortedSubarrayLength(int arr[], int N) {
+int findUnsortedSubarray(int arr[], int N) {
     int l = 0, r = N - 1;
 
     // Step 1: Find the left boundary
