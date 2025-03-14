@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#define MAX 100
-#define LEN 100
+#define MAX 100  // Maximum number of strings
+#define LEN 100  // Maximum length of each string
 
 // Function to perform Bubble Sort on strings
 void bubbleSort(char arr[][LEN], int n) {
