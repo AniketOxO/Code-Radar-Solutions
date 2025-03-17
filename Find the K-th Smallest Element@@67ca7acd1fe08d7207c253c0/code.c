@@ -6,7 +6,7 @@ int compare(const void *a, const void *b) {
 }
 
 
-int kthSmallestElement(int arr[], int n, int k) {
+int kthSmallest(int arr[], int n, int k) {
     if (k < 1 || k > n) {
         return -1; 
     }
