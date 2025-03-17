@@ -1,17 +1,16 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
 
-// Function to find the index of the target in a rotated sorted array
+// Function to search for the target in a rotated sorted array
 int searchInRotatedArray(int arr[], int n, int target) {
     int left = 0, right = n - 1;
-    
+
     while (left <= right) {
         int mid = left + (right - left) / 2;
 
-        if (arr[mid] == target) 
-            return mid;  // Found the target
+        if (arr[mid] == target)
+            return mid;  // Target found, return its index
 
-        // Determine which part is sorted
+        // Check which part is sorted
         if (arr[left] <= arr[mid]) { // Left half is sorted
             if (arr[left] <= target && target < arr[mid])
                 right = mid - 1;  // Search in the left half
@@ -25,6 +24,6 @@ int searchInRotatedArray(int arr[], int n, int target) {
                 right = mid - 1;  // Search in the left half
         }
     }
-    
+
     return -1; // Target not found
 }
